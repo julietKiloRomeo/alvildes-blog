@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "alvilde-blog"
+version = "0.1.0"
+description = ""
+authors = ["Jimmy Kjærsgaard-Rasmussen <jk@innolabtechnology.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "*"
+Flask-FlatPages = "*"
+Frozen-Flask = "*"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pytest-sugar = "^0.9.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
